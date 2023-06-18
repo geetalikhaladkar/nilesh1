@@ -1,0 +1,30 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+.image1{
+    width: 1300px;
+    height: 700px; 
+}
+
+nav{
+    background-color: black !important;
+    color: white;
+}
+
+.title{
+    color: white !important;
+    font-family: sans-serif;
+}
+
+.collapse {
+    margin-left: 25px;
+    margin-right: 90px; 
+}
+
+.body{
+    background-image: url('../assets/Img/sanjay jagtap1.png');
+}
+
+
+.navbar {
+    z-index: 100; /* Adjust the z-index value as needed */
+ }
+      

@@ -1,0 +1,184 @@
+#div_top_hypers {
+    background-color:#eeeeee;
+    display:inline;      
+}
+#ul_top_hypers li{
+    display: inline;
+}
+
+.navbar {
+    height: 90px; /* Adjust the height value as needed */
+    width: 1000px;
+    background-color: white !important;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    position: absolute;
+}
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    padding-top: 0.25rem; /* Adjust the padding value as needed */
+    padding-bottom: 0.25rem; /* Adjust the padding value as needed */
+    font-size: 14px; /* Adjust the font size value as needed */
+    /* Add any other custom styles for the navbar elements */
+  }
+  
+  .name{
+    color: #9b0734;
+  }
+
+  .icon{
+    height: 50px;
+    width: 50px;
+  }
+
+  .a_top_hypers{
+    height: 50px;
+    width: 50px;
+  }
+
+  body
+  {
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background: #e91e63;
+  }
+
+  ul{
+    position:absolute;
+    left:50%;
+    top: -458%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+    padding: 20px 0;
+    background:#fff;
+    display: flex;
+    border-radius:10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);   
+  }
+
+  ul li
+  {
+    list-style: none;
+    text-align: center;
+    display: block;
+    border-right: 1px solid rgba(0,0,0,0.2);
+  }
+
+  ul li:last-child
+  {
+border-right: none;
+  }
+
+
+  ul li a
+  {
+    text-decoration: none;
+    padding: 0 50px;
+    display: block;
+  }
+/* 
+ul li a .icon
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #ccc;
+    overflow: hidden;
+    margin:0 auto 10px;
+} */
+
+/* ul li a .icon 
+{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    transition: 0.5s;
+    color: #000;   
+}
+
+ul li a .icon:last-child
+{
+    color: ;
+}
+
+ul li a:hover .icon
+{
+    transform: translateY(-70%);
+}
+
+ul li a .name
+{
+    position: relative;
+    height:20px;
+    width: 100%;
+    display: block;
+}
+
+ul li a .name span
+{
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+ul li a .name span:before
+{
+    content: attr(data-text);
+    position:absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height:100%;
+    color: aqua;
+}
+
+ul li a: hover .name span:before
+{
+    transform: translateY(20px)
+
+} */
+
+.cantainer2{
+    width: 500px;
+    height: 400px;
+    background-color:#fff;
+    position: relative;
+    top: -552px;
+    left: 25px;
+    border-radius:10px;
+}
+
+.heading{
+    font: size 10px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    top:30%;
+    position: absolute;
+    align-items: center;
+    word-wrap: normal;
+    text-align: center;
+}
+
+p{
+     
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{
+    color: blueviolet;
+    color-scheme: blue;
+    border-color: violet;
+}
