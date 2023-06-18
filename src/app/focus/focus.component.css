@@ -56,12 +56,12 @@ margin-block-end: 2.33em;
     color:#fff;
 }
 
-
 image-container {
     position: relative;
     display: inline-block;
   }
   
+
   .overlay {
     position: relative;
     top: -897px;
